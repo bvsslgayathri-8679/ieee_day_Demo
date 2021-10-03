@@ -35,10 +35,10 @@ body{
     margin-bottom: -10px;
     font-weight: 400;
 }
-
+/* 
 .sb-navbar .fa-bars{
     color: #fff;
-}
+} */
 
 .sb-navbar.scrolled .fa-bars{
     color: #000;
@@ -46,7 +46,7 @@ body{
 
 .sb-navbar .dropdown-menu{
     border: 0;
-    background: transparent;
+    background: #fff;
 }
 
 .sb-navbar .dropdown a{
