@@ -408,6 +408,7 @@
     box-shadow: 0.3vw 0 0.5vw -0.2vw rgb(0 0 0 / 27%);
   }
 }
+
 /*
 @media screen and (max-width: 550px) {
 
@@ -602,6 +603,9 @@ body{
     background: #426296;   
 }
 
+.text-center{
+  font-weight: 320!important;
+}
 .offcanvas-header{ display:none; }
 
 @media (max-width: 992px) {
@@ -627,15 +631,21 @@ body{
 
 .banner {
     color: #fff;
-    height: 120vh;
+    height: 100vh;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     
-    background:
-              url('../images/ieeeday-cal3.jpg');
+    /* background:
+              url('../images/ieeeday-cal3.jpg'); */
+              background: url('../images/ieeeday-cal3.jpg') no-repeat center center fixed; 
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+              
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

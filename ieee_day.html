@@ -23,6 +23,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
 
+    <style>
+        .square {
+           position: relative;
+           height: 100vh;
+           overflow: hidden;
+        }
+        .square img {
+           position: absolute;
+           max-width: 100%;
+           width: 100%;
+           height: 100%;
+           top: 50%;     
+           left: 50%;
+           transform: translate( -50%, -50%);
+       }
+        
+      </style>
 
 
 </head>
@@ -48,11 +65,14 @@
         </div>
     </div>
 
+    <header class="square">
+        <img src="images/ieeeday-cal3.jpg" alt="Image" /> 
+     </header>
 
-    <header class="banner">
+    <!-- <header class="banner ">
         <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-            <!-- <h1>IEEE Day 2021</h1> -->
+            <h1>IEEE Day 2021</h1>
             <br>
             <br>
             <br>
@@ -61,7 +81,7 @@
         </div>
         </div>
 
-    </header>
+    </header> -->
 
 
     <!-- about ieee day content -->
@@ -88,7 +108,7 @@
                                 <h2><b>IEEE-Day</b></h2>
                                 <hr class="underline" align="left" style="width:3em">
 
-                                <p>The Institute of Electrical and Electronics Engineers (IEEE), is a professional association for electrical and electronic engineers along with associate disciplines formed in the year 1953. IEEE produces over 30% of the
+                                <p class="text-center justify-content-center"  style="color:black; text-align: justify !important;">The Institute of Electrical and Electronics Engineers (IEEE), is a professional association for electrical and electronic engineers along with associate disciplines formed in the year 1953. IEEE produces over 30% of the
                                     world's literature in the electrical and electronics engineering and computer science fields, publishing well over 100 peer-reviewed journals and magazines and also sponsors over 1800 conferences and events. As of 2018,
                                     it is the world's largest association of technical professionals with more than 423,000 members in over 160 countries around the world. IEEE offers educational opportunities within the engineering sciences, research,
                                     and technology such as IEEE e-Learning Library, the Education Partners Program, Standards in Education and Continuing Education Units (CEUs).</p>
@@ -120,7 +140,7 @@
                 <div class="col-sm-10 offset-sm-1">
                     <h1 class="text-center">Theme</h1>
                     <hr class="underline" style="width:5em">
-                    <p class="text-center" style="color:black">The Institute of Electrical and Electronics Engineers (IEEE), is a professional association for electrical and electronic engineers along with associate disciplines formed in the year 1953. IEEE produces over 30% of the
+                    <p class="text-center justify-content-center" style="color:black;text-align: justify !important;">The Institute of Electrical and Electronics Engineers (IEEE), is a professional association for electrical and electronic engineers along with associate disciplines formed in the year 1953. IEEE produces over 30% of the
                         world's literature in the electrical and electronics engineering and computer science fields, publishing well over 100 peer-reviewed journals and magazines and also sponsors over 1800 conferences and events. As of 2018,
                         it is the world's largest association of technical professionals with more than 423,000 members in over 160 countries around the world. IEEE offers educational opportunities within the engineering sciences, research,
                         and technology such as IEEE e-Learning Library, the Education Partners Program, Standards in Education and Continuing Education Units (CEUs).</p>
@@ -171,17 +191,17 @@
               <div class="date-container">
                 <div class="event-dates">
                   <span>Dates/Timing</span>
-                  <a href="#" onclick="switchDays(1)">10th</a>
-                  <a href="#" onclick="switchDays(2)">11th</a>
-                  <a href="#" onclick="switchDays(3)">12th</a>
-                  <a href="#" onclick="switchDays(4)">13th</a>
-                  <a href="#" onclick="switchDays(5)">14th</a>
-                  <a href="#" onclick="switchDays(6)">15th</a>
-                  <a href="#" onclick="switchDays(7)">16th</a>
-                  <a href="#" onclick="switchDays(8)">17th</a>
-                  <a href="#" onclick="switchDays(9)">18th</a>
-                  <a href="#" onclick="switchDays(10)">19th</a>
-                  <a href="#" onclick="switchDays(11)">20th</a>
+                  <a href="#calender" onclick="switchDays(1)">10th</a>
+                  <a href="#calender" onclick="switchDays(2)">11th</a>
+                  <a href="#calender" onclick="switchDays(3)">12th</a>
+                  <a href="#calender" onclick="switchDays(4)">13th</a>
+                  <a href="#calender" onclick="switchDays(5)">14th</a>
+                  <a href="#calender" onclick="switchDays(6)">15th</a>
+                  <a href="#calender" onclick="switchDays(7)">16th</a>
+                  <a href="#calender" onclick="switchDays(8)">17th</a>
+                  <a href="#calender" onclick="switchDays(9)">18th</a>
+                  <a href="#calender" onclick="switchDays(10)">19th</a>
+                  <a href="#calender" onclick="switchDays(11)">20th</a>
                 </div>
               </div>
               <div class="events-container">

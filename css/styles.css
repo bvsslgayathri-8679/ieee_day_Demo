@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Cookie&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Cookie&family=Mate+SC&family=Montserrat:wght@500&display=swap');
+
 ::selection {
     background-color: #000;
     color: #fff;
@@ -30,6 +34,7 @@ body{
 }
 
 .sb-navbar{
+    
     position: fixed;
     background: transparent;
     margin-bottom: -10px;
@@ -129,35 +134,50 @@ body{
 /*ieee day model */
 
 .modal-title{
+    font-family: 'Montserrat', sans-serif!important;
     text-align: center;
     left: 25%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     /* margin-left: 25%; */
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: 'Merriweather', serif;
 
 }
 .ieeeday-text{
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: 'PT Serif', serif;
 }
+.modal-body{
+    padding-top: 0%!important;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 .modal-content{
-    background-color: #031522 !important;
+    /* background-color: #031522 !important; */
+    background-color: rgb(220, 227, 231)
 
 }
+.modal-header{
+    border-bottom: 1px solid #000000!important;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
 .close{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 img.ieee-day{
     width:80%;
 }
 a.ieee-day {
-    font-family: 'Yrsa', serif;
+    font-family: 'Mate SC', serif;
+    /* font-family: 'Yrsa', serif; */
     display: inline-block;
     position: relative;
-    color: #0087ca;
+    color: #094c70;
     font-size: 1.4rem;
+    padding-top: 0.8rem;
   }
   
   a.ieee-day:after {
@@ -168,7 +188,7 @@ a.ieee-day {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0087ca;
+    background-color: #094c70;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
