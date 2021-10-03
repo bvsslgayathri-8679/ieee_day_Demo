@@ -650,19 +650,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
   }
-@media(max-width:400px){
-  .banner {
-    color: #fff;
-    height: 100vh;
-    min-height: 500px;
-  
-    background:
-              url('../images/ieeeday-cal3_1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
 .about-ieee-day-heading{
     padding: 30px;
     font-weight: 400;
