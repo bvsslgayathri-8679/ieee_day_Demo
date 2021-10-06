@@ -1180,6 +1180,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
     position: absolute;
     top: 50%;
     
+    
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
@@ -1221,6 +1222,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 margin: 30px 30px;
 background: white;
 border-radius: 5px;
+
 box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 
 }
@@ -1228,7 +1230,7 @@ box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   .purchase-row{
     max-width: 400px;
     
-    
+  max-height: 23rem!important;
   margin: 30px 30px;
   background: white;
   border-radius: 5px;
@@ -1237,11 +1239,13 @@ box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   }
   .modal-content1{
     max-width: 350px;
+    max-height: 30rem;
+    height: 30rem;
   }
 }
 .purchase-row{
   overflow-y: auto;
-  max-height: 15rem;
+  max-height: 20rem;
 }
 .purchase-item{
   color: #031522;
