@@ -213,13 +213,13 @@ function updateCartTotal() {
 
     if(count>=3){
         document.getElementsByClassName('cart-total-price')[2].innerText = '₹' + Math.round(total1 * 80) / 100 
-        document.getElementsByClassName('cart-total-price')[3].innerText = '   ₹ '+ Math.round(total2 * 80) / 100
+        document.getElementsByClassName('cart-total-price')[3].innerText = '₹'+ Math.round(total2 * 80) / 100
         document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + Math.round(total1 * 20) / 100 
-        document.getElementsByClassName('cart-total-price')[1].innerText = '  ₹ '+ Math.round(total2 * 20) / 100
+        document.getElementsByClassName('cart-total-price')[1].innerText = '₹'+ Math.round(total2 * 20) / 100
     }
     else{
         document.getElementsByClassName('cart-total-price')[2].innerText = '₹' +  Math.round(total1 * 100) / 100 
-        document.getElementsByClassName('cart-total-price')[3].innerText = '  ₹ '+ Math.round(total2 * 100) / 100
+        document.getElementsByClassName('cart-total-price')[3].innerText = '₹'+ Math.round(total2 * 100) / 100
         document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + 0
         document.getElementsByClassName('cart-total-price')[1].innerText = '₹'+ 0
     }
