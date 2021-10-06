@@ -1003,7 +1003,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 }
 
 .cart-price {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #333;
 }
 
@@ -1013,11 +1013,11 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 
 .cart-item-title {
     color: #333;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .cart-items .cart-row .cart-item .cart-item-title{
-  font-size: 1rem !important;
+  font-size: 1.5rem !important;
 }
 .btn-danger {
     color: white;
@@ -1104,7 +1104,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 }
 .cart-price{
  text-align: center;
- font-size: 1rem;
+ font-size: 1.5rem;
 }
 .cart-column{
     text-align: justify;
@@ -1150,7 +1150,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
   padding-right: 10%;
   }
   .cart-total-price {
-      font-size: 1rem;
+      font-size: 1.5rem;
   }
 }
 
@@ -1245,7 +1245,7 @@ box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 .purchase-row{
   overflow-y: auto;
-  max-height: 20rem;
+  max-height: 25rem;
 }
 .purchase-item{
   color: #031522;
