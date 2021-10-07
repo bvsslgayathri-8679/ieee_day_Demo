@@ -12,7 +12,7 @@ $(function () {
   
   const day1 = [ 
     {
-      name: "EPICS Day - 1",
+      name: "Project Prototypes",
       startTime: "17:30",
       endTime: "19:00",
       link: "http://ieeesbgvpce.org/",
