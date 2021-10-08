@@ -9,142 +9,217 @@ $(function () {
   let modalContainer = document.getElementById('myModal');
   let topPos = document.getElementById("16:00").offsetTop + 30;
   let isEmpty = 1;
-  
+  //11
   const day1 = [ 
+    
     {
-      name: "Project Prototypes",
-      startTime: "17:30",
-      endTime: "19:00",
-      link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+      name: "The Mind Fizz",
+      startTime: "18:00 - ",
+      endTime: "19:00 ",
+      link: "events/2021/22_ieee_day_mind_fizz.html",
+      // speaker: "Mr.abc",
+      ieee:"free",
+      nonieee:"free"
+
     }
+
   ]
-  
+  //12
   const day2 = [
     {
-      name: "EPICS Day-2",
-      startTime: "17:30",
-      endTime: "19:00",
-      link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
-  ]
-  
-  const day3 = [
-    {
-      name: "Explore your passion workshop",
-      startTime: "16:30",
+      name: "Explore Your Passion(ECE/EEE)",
+      startTime: "16:00 - ",
       endTime: "17:30",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+      speaker: "Dr. T.Sudheer Kumar",
+      ieee:"free",
+      nonieee:"free"
+
     },
     {
-      name: "Web Dev Workshop",
-      startTime: "18:00",
+      name: "Web-Wizards (Day-1)",
+      startTime: "18:00 - ",
       endTime: "19:30",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+      speaker: "Mr. Rakesh Peela",
+      ieee:"₹100/-",
+      nonieee:"₹150/-"
+
+    },
+    {
+      name: "Art Competition",
+      startTime: "07/10/2021 - ",
+      endTime: "12/10/2021",
+      link: "http://ieeesbgvpce.org/",
+      // speaker: "Mr.abc",
+      ieee:"₹30/-",
+      nonieee:"₹50/-"
+
     }
+
   ]
-  
+  //13
+  const day3 = [
+    
+    {
+      name: "Project Prototypes (Day-1)",
+      startTime: "15:00 onwards",
+      endTime: "",
+      link: "http://ieeesbgvpce.org/",
+      // speaker: "Mr.abc",
+      ieee:"₹100/-",
+      nonieee:"₹150/-"
+
+    },
+    {
+      name: "Web-Wizards (Day-2)",
+      startTime: "18:00 - ",
+      endTime: "19:30",
+      link: "http://ieeesbgvpce.org/",
+      speaker: "Mr. Rakesh Peela",
+      ieee:"₹100/-",
+      nonieee:"₹150/-"
+
+    },
+    
+
+  ]
+  //14
   const day4 = [
     {
-      name: "Simulation Tool",
-      startTime: "16:30",
+      name: "Explore your passion workshop(CSE/IT)",
+      startTime: "16:00 - ",
       endTime: "17:30",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+      speaker: "Mr. Ravi Yelesvarapu",
+      ieee:"free",
+      nonieee:"free"
+
     },
     {
-      name: "Web Development",
-      startTime: "18:00",
+      name: "Project Prototypes (Day-2)",
+      startTime: "15:00 onwards",
+      endTime: "",
+      link: "http://ieeesbgvpce.org/",
+      // speaker: "Mr.abc",
+      ieee:"₹100/-",
+      nonieee:"₹150/-"
+
+    },
+    {
+      name: "Web-Wizards (Day-3)",
+      startTime: "18:00 - ",
       endTime: "19:30",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
+      speaker: "Mr. Rakesh Peela",
+      ieee:"₹100/-",
+      nonieee:"₹150/-"
+
+    },
   ]
+  //15
   
   const day5 = [
     {
-      name: "Explore your passion workshop",
-      startTime: "16:30",
-      endTime: "17:30",
+      name: "Code Space",
+      startTime: "15th Oct (12pm) - ",
+      endTime: "16th Oct (12am)",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+      // speaker: "Mr.abc",
+      ieee:"free",
+      nonieee:"free"
+
     },
-    {
-      name: "Web Development",
-      startTime: "18:00",
-      endTime: "19:30",
-      link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
+
+
   ]
-  
+  //16
   const day6 = [
     {
-      name: "Coding Competition",
-      startTime: "16:30",
-      endTime: "19:30",
-      link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
-  ]
-  
-  const day7 = [
-    {
-      name: "Linkedin or Resume",
-      startTime: "16:30",
+      name: "Resume/linkedln webinar",
+      startTime: "16:30 - ",
       endTime: "17:30",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+      speaker: "Mr. Atishay Jain",
+      ieee:"₹50/-",
+      nonieee:"₹70/-"
+
     },
     {
-      name: "Coding Competition",
-      startTime: "18:30",
-      endTime: "19:30",
+      name: "Python Workshop (day-1)",
+      startTime: "18:00 - ",
+      endTime: "20:00",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
+      speaker: "",
+      ieee:"₹150/-",
+      nonieee:"₹200/-"
+
+    },
   ]
-  const day8 = [
+  //17
+  const day7 = [
     {
       name: "IEEE DAY",
-      startTime: "10:00",
+      startTime: "10:00 - ",
       endTime: "16:00",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
+
+      ieee:"free",
+      nonieee:"free"
+
     }
   ]
+  //18
+  const day8 = [
+    {
+      name: "Python Workshop (day-2)",
+      startTime: "18:00 - ",
+      endTime: "20:00",
+      link: "http://ieeesbgvpce.org/",
+      speaker: "",
+      ieee:"₹150/-",
+      nonieee:"₹200/-"
+
+    },
+  ]
+  //19
   const day9 = [
     {
-      name: "Python day-2",
-      startTime: "17:00",
-      endTime: "18:30",
+      name: "Python Workshop (day-3)",
+      startTime: "18:00 - ",
+      endTime: "20:00",
       link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
+      speaker: "",
+      ieee:"₹150/-",
+      nonieee:"₹200/-"
+
+    },
   ]
   
-  const day10 = [
-    {
-      name: "Python day-3",
-      startTime: "17:00",
-      endTime: "18:30",
-      link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
-  ]
-  
-  const day11 = [
-    {
-      name: "Python day-4",
-      startTime: "17:00",
-      endTime: "18:30",
-      link: "http://ieeesbgvpce.org/",
-      speaker: "Mr.abc",
-    }
-  ]
+  // const day10 = [
+  //   {
+  //     name: "Python Workshop (day-4)",
+  //     startTime: "18:00 - ",
+  //     endTime: "20:00",
+  //     link: "http://ieeesbgvpce.org/",
+  //     speaker: "",
+  //     ieee:"₹150/-",
+  //     nonieee:"₹200/-"
+
+  //   },
+  // ]
+  // // //20
+  // const day11 = [
+  //   {
+  //     name: "Python day-4",
+  //     startTime: "17:00",
+  //     endTime: "18:30",
+  //     link: "http://ieeesbgvpce.org/",
+  //     speaker: "Mr.abc",
+  //     ieee:"100",
+  //     nonieee:"1000"
+  //   }
+  // ]
   
   let modalContent = (ev) => {
     let myModal = document.createElement('div');
@@ -155,13 +230,18 @@ $(function () {
     let title = document.createElement('h2');
     title.innerHTML = `${ev.name}`;
     let para = document.createElement('p');
-    para.innerHTML = `Time: ${ev.startTime} - ${ev.endTime}`;
+    para.innerHTML = `Time: ${ev.startTime} ${ev.endTime}`;
     let fee = document.createElement('p');
-    fee.innerHTML = "Fee : Rs.250(ieee member)\ Rs.350(non-ieee member)";
+    fee.innerHTML = `Fee: <br>IEEE Member: ${ev.ieee} <br>NON-IEEE Member: ${ev.nonieee} `;
     let speak = document.createElement('p');
-    speak.innerHTML = `Speaker: ${ev.speaker}`;
+    if(ev.speaker == undefined){
+      speak.innerHTML=' ';
+    }
+    else{
+      speak.innerHTML = `Speaker: ${ev.speaker}`;
+    }
     let lnk = document.createElement('a');
-    lnk.innerHTML = "Register";
+    lnk.innerHTML = "More Info";
     lnk.href = `${ev.link}`;
     modalContent.append(title);
     modalContent.append(para);
@@ -186,12 +266,12 @@ $(function () {
       if(window.screen.width <= 700){
       eventElement.style.left = 5 + "px";
         eventElement.style.width = "95%";
-      linkEle.innerHTML = event.name + ` (${event.startTime} - ${event.endTime}) `;
+      linkEle.innerHTML = event.name + ` <br>(${event.startTime}  ${event.endTime}) `;
     }
     else{
       eventElement.style.left = 5 + "px";
         eventElement.style.width = "95%";
-      linkEle.innerHTML = event.name + `<br> (${event.startTime} - ${event.endTime}) `;
+      linkEle.innerHTML = event.name + `<br> (${event.startTime}  ${event.endTime}) `;
     }
       linkEle.href = "#calender";
     linkEle.setAttribute('data-object', event);
