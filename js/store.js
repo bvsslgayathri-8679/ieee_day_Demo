@@ -146,12 +146,11 @@ function purchaseClicked() {
     <div class="purchase-total">
        <strong class="purchase-item purchase-total-title">Amount(For Non-IEEE) :</strong>
        <span class="purchase-price purchase-total-price">${val2}</span>
-    </div> 
-    <p class="register-p">Make your payment by scanning the qr code or through gpay/PhonePe</p>
-    <div><img class="qr" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"></img>
-    </div>
-    <p class="register-p">PhonePe/Google pay:<br> <a class="mobilesOnly contactlink" href="tel:+91 9182985123" >+91 9182985123</a> </p>
-    <p class="register-p"><strong>Note:- Take a Screenshot of the payment and click on Next</strong></p>
+       </div> 
+       <div><img class="qr" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png"></img>
+       </div>
+       <p class="register-p">Make your payment by scanning the QR code or through gpay/PhonePe <a class="mobilesOnly contactlink" href="tel:+91 9182985123" >+91 9182985123</a> </p>
+       <p class="register-p"><strong>Note:- Take a Screenshot of the payment and click on Next</strong></p>
     <div class="purchase-register "><button class="btn btn-primary btn-purchase1">Next</button></div>
     `
     purchaseRow.innerHTML += purchaseRowContents
