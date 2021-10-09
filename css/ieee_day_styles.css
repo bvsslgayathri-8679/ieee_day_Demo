@@ -48,6 +48,22 @@
   display: none;
 }
 
+@media screen and (min-width:650px) {
+  .guidelines{
+    padding-left: 20%; 
+    padding-right: 20%;
+    text-align: justify;
+
+  }
+}
+@media screen and (max-width:650px) {
+  .guidelines{
+    padding-left: 6%; 
+    padding-right: 6%;
+   text-align: justify;
+  }
+}
+
 /* .theme1{
   background-color: #055fad;
   color: white;
@@ -784,12 +800,28 @@ body{
     border:2px solid rgba(34, 34, 51, 0.342);
     margin-bottom: 15%;
     height: 70%;
+
     
     /*
      width: 100vh; 
     height: 100vh;  */
     height: 400px;
 	object-fit: contain;
+}
+@media screen and (max-width:550px) {
+  .heading{
+    font-size: 2rem;
+  }
+}
+.preview{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@media screen and (max-width:800px) {
+  .preview{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 @media screen and (max-width:650px) {
   .about-ieee-day .poster img{
@@ -1011,7 +1043,8 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
     align-items: center;
     padding-left: 20%;
     padding-right: 20%;
-}
+  padding-top:5% ;
+  }
 #cost .container{
   padding:0% !important;
 }

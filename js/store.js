@@ -86,11 +86,12 @@ function purchaseClicked() {
         cartItems.removeChild(cartItems.firstChild)
     }
     // console.log(purchaseItems)
-    for(var i=0;i<plist.length;i++){
+    for(var i=1;i<plist.length;i++){
         // console.log(plist[i])
+    
         var purchaseRowContents = `
         <div class="purchase-item purchase-column ">
-            <span class="purchase-item-title "> ${i+1}. ${plist[i]}</span>
+            <span class="purchase-item-title "> ${i}. ${plist[i]}</span>
         </div> `
         purchaseRow.innerHTML += purchaseRowContents
        
@@ -104,7 +105,7 @@ function purchaseClicked() {
     //     val2 = '₹'+ Math.round(total2 * 100) / 100
     // }
     
-
+    if(co>=2){
     if(total1>=400){
         val1 = '₹' + Math.round(total1 * 80) / 100 
     } 
@@ -119,8 +120,12 @@ function purchaseClicked() {
     }
     else {
         val1 = '₹' + Math.round(total1 * 100) / 100 
+    } 
+  } else {
+       val1 = '₹' + Math.round(total1 * 100) / 100            
     }
 
+    if(co>=2){
     if(total2>=400){
         val2 = '₹' + Math.round(total2 * 80) / 100 
     } 
@@ -136,7 +141,9 @@ function purchaseClicked() {
     else {
         val2 = '₹' + Math.round(total2 * 100) / 100 
     }
-     
+} else {
+    val2 = '₹' + Math.round(total2 * 100) / 100 
+}
 
     var purchaseRowContents = `
     <div class="purchase-total">
@@ -258,6 +265,7 @@ function updateCartTotal() {
     //     document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + 0
     //     document.getElementsByClassName('cart-total-price')[1].innerText = '₹'+ 0
     // }
+    if(count>=2){
     if(total1>=400){
         document.getElementsByClassName('cart-total-price')[2].innerText = '₹' + Math.round(total1 * 80) / 100 
         document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + Math.round(total1 * 20) / 100 
@@ -278,7 +286,11 @@ function updateCartTotal() {
         document.getElementsByClassName('cart-total-price')[2].innerText = '₹' + Math.round(total1 * 100) / 100 
         document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + Math.round(total1 * 0) / 100 
     }
-    
+} else {
+    document.getElementsByClassName('cart-total-price')[2].innerText = '₹' + Math.round(total1 * 100) / 100 
+    document.getElementsByClassName('cart-total-price')[0].innerText = '₹' + Math.round(total1 * 0) / 100 
+}
+if(count>=2){
     if(total2>=400){
         document.getElementsByClassName('cart-total-price')[3].innerText = '₹'+ Math.round(total2 * 80) / 100
         document.getElementsByClassName('cart-total-price')[1].innerText = '₹'+ Math.round(total2 * 20) / 100
@@ -298,6 +310,10 @@ function updateCartTotal() {
     else {
         document.getElementsByClassName('cart-total-price')[3].innerText = '₹'+ Math.round(total2 * 100) / 100
         document.getElementsByClassName('cart-total-price')[1].innerText = '₹'+ Math.round(total2 * 0) / 100
-    }
+    } 
+} else {
+    document.getElementsByClassName('cart-total-price')[3].innerText = '₹'+ Math.round(total2 * 100) / 100
+    document.getElementsByClassName('cart-total-price')[1].innerText = '₹'+ Math.round(total2 * 0) / 100
+} 
     
 }

@@ -16,7 +16,7 @@ $(function () {
       name: "The Mind Fizz",
       startTime: "18:00 - ",
       endTime: "19:00 ",
-      link: "events/2021/22_ieee_day_mind_fizz.html",
+      link: "../events/2021/22_ieee_day_mind_fizz.html",
       // speaker: "Mr.abc",
       ieee:"free",
       nonieee:"free"
@@ -30,7 +30,7 @@ $(function () {
       name: "Explore Your Passion(ECE/EEE)",
       startTime: "16:00 - ",
       endTime: "17:30",
-      link: "http://ieeesbgvpce.org/",
+      link: "",
       speaker: "Dr. T.Sudheer Kumar",
       ieee:"free",
       nonieee:"free"
@@ -273,7 +273,7 @@ $(function () {
         eventElement.style.width = "95%";
       linkEle.innerHTML = event.name + `<br> (${event.startTime}  ${event.endTime}) `;
     }
-      linkEle.href = "#calender";
+      linkEle.href = "";
     linkEle.setAttribute('data-object', event);
     let modalPopup = modalContent(event);
     
